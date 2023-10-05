@@ -31,7 +31,7 @@ public class Main {
             /*for (int i = 2; i <= 20; i += 2) {
                 if(i>10) {System.out.println(i);}
             }*/
-        for (int i = 1; i <= num; i++) {
+        for (int i = num; i <= 100; i++) {
             if (num % i == 0) {
                 System.out.println(i);
             }
